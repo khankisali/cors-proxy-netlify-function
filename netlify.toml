@@ -1,6 +1,5 @@
 [build]
-functions = "netlify/functions"
-publish = "public" # Specify your build directory if applicable
+functions = "netlify/functions" # Path to your functions directory
 
 [[headers]]
 for = "/*"
